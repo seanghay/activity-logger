@@ -1,0 +1,3 @@
+include ':activitylogger'
+include ':app'
+rootProject.name = "LogInterceptor"
