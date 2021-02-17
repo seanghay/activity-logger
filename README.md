@@ -25,3 +25,26 @@ dependencies {
   debugImplementation "androidx.startup:startup-runtime:1.0.0"
 }
 ```
+
+
+### How to use
+
+Just search for tag `ActivityLogger` inside your Logcat.
+
+I will look something similar to this
+
+```
+I/ActivityLogger: Activity: MainActivity [Resumed] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [Attached] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [Created] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [ViewCreated] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [ActivityCreated] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [Attached] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [Created] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [ViewCreated] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity -> Fragment: SimpleFragment [ActivityCreated] - 08:30:25 PM
+I/ActivityLogger: Activity: MainActivity [Destroyed] - 08:30:26 PM
+I/ActivityLogger: Activity: MainActivity [Paused] - 08:31:22 PM
+I/ActivityLogger: Activity: MainActivity [Stopped] - 08:31:23 PM
+I/ActivityLogger: Activity: MainActivity [SaveInstanceState] - 08:31:23 PM
+```
