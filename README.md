@@ -28,11 +28,11 @@ repositories {
 
 ```groovy
 dependencies {
-  debugImplementation 'com.github.seanghay:activity-logger:1.0.0'
-  debugImplementation "androidx.startup:startup-runtime:1.0.0"
+  debugImplementation 'com.github.seanghay:activity-logger:1.0.2'
 }
 ```
 
+> You should use this for debugging only.
 
 ### How to use
 
