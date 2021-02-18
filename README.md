@@ -2,6 +2,11 @@
 
 Print all activity lifecycles inside your application
 
+### But Why?
+
+It's a library for inspecting Activity/Fragment lifecycles correspond to the current screen inside Android project. It's useful when we're new to the project and want to find Activity or Fragment classes quicker.
+
+
 ### Add JitPack
 
 `build.gradle` (project level)
