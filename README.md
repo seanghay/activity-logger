@@ -24,6 +24,8 @@ repositories {
 
 `app/build.gradle` (app level)
 
+[![](https://jitpack.io/v/seanghay/activity-logger.svg)](https://jitpack.io/#seanghay/activity-logger)
+
 ```groovy
 dependencies {
   debugImplementation 'com.github.seanghay:activity-logger:1.0.0'
