@@ -106,7 +106,6 @@ class ActivityLogger(
     }
 
     companion object {
-
         private val simpleDateFormat = SimpleDateFormat("hh:mm:ss aa", Locale.ENGLISH)
 
         private fun timestamp(): String {
